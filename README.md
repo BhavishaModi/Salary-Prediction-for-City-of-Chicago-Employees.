@@ -17,18 +17,18 @@ Salary based or Hourly based: 2 category
 
 # Background
 
-This notebook demonstrates the entire data science process of building a predictive model that can hypothetically be used by HR to estimate prospective employees' compensation based on Job Title. The processes involving defining the problem, preprocessing data, EDA, developing model, and deploying into production have been divided into main sections. The salary range tends to vary, depending on many factors such as job titles, department, full time or part time, salary based or hourly based, etc. This predictive analysis aims to build a scalable and deployable model to predict salary. Here is the breakdown of my project.
+This notebook demonstrates the entire data science process of building a predictive model that can hypothetically be used by HR to estimate prospective employees' compensation based on categorical variables. The processes involving defining the problem, preprocessing data, Exploratory Data Analysis, developing model, and deploying into production have been divided into main sections. The salary range tends to vary, depending on many factors such as job titles, department, full time or part time, salary based or hourly based, etc. This predictive analysis aims to build a scalable and deployable model to predict salary. Here is the breakdown of my project.
 
-1. Data Cleaning and Preprocessing, checking for outliers, missing data.
+1. Data Cleaning and Preprocessing, checking for outliers, missing data and get dataset ready for further process.
 
 2. Exploratory data analysis to examine the distribution of the target variable and its correlation with categorical and numerical features.
 
-3. Baseline Model - Linear Regression 
+3. Baseline Model - Multiple Linear Regression 
 
 4. Find out lowest Mean Square Error (MSE) and higher R^2.
 
-    Linear Regression : 
+    Multiple Linear Regression : R^2 = 80.04% and MSE = 
 
-5. Feature importance data visualization
+5. Feature importance data visualization using Heatmap.
 
 6. Deploy and save the final model into production using Pipeline.
